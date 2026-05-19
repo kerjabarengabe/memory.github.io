@@ -159,11 +159,12 @@ body {
 }
 
 .front {
-  background: #FAB942 url('../img/question.gif') no-repeat center center / contain;
+  background: url('../img/question.gif') no-repeat center center / contain;
 }
 
 .back {
   transform: rotateY(180deg);
+  background-color: #6589F9;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
